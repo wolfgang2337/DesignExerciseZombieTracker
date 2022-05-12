@@ -36,7 +36,7 @@ public class Zombie {
         if(weaknesses.size() == 0) {
             return String.format("Type of Zombie named %s with no known weaknesses", name);
         } else if (weaknesses.size() == 1) {
-            return String.format("Type of Zombie named %s with %d weakness: %s", name, weaknesses.size(), weaknesses);
+            return String.format("Type of Zombie named %s with 1 weakness: %s", name, weaknesses);
         } else {
             return String.format("Type of Zombie named %s with %d weaknesses: %s", name, weaknesses.size(), weaknesses);
         }
